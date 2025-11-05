@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* کوچک: فونت و rtl برای فارسی */
+:root { --accent: #ef4444; } /* red-500 */
+html { scroll-behavior: smooth; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+
+/* راست‌چین وقتی زبان فارسی انتخاب شود، صفحات می‌توانند کلاس rtl دریافت کنند.
+   در این نمونه، من به جای پیچیده‌سازی کلاس‌ها، صفحات فارسی را با text-right نمایش می‌دهم. */
