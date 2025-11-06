@@ -1,7 +1,7 @@
 const LESSONS = [
   {
     id: 1,
-    title: { fa: 'درودها', en: 'Greetings' },
+    title: { fa: 'دوره ها', en: 'Greetings' },
     items: [
       { cn: '你好', pinyin: 'nǐ hǎo', en: 'Hello', fa: 'سلام' },
       { cn: '早上好', pinyin: 'zǎo shang hǎo', en: 'Good morning', fa: 'صبح بخیر' },
@@ -11,6 +11,15 @@ const LESSONS = [
   {
     id: 2,
     title: { fa: 'مقدماتی', en: 'Basics' },
+    items: [
+      { cn: '谢谢', pinyin: 'xièxie', en: 'Thank you', fa: 'متشکرم' },
+      { cn: '请', pinyin: 'qǐng', en: 'Please', fa: 'لطفاً' },
+      { cn: '对不起', pinyin: 'duìbuqǐ', en: 'Sorry', fa: 'ببخشید' },
+    ],
+  },
+    {
+    id: 2,
+    title: { fa: 'مثال', en: 'Basics' },
     items: [
       { cn: '谢谢', pinyin: 'xièxie', en: 'Thank you', fa: 'متشکرم' },
       { cn: '请', pinyin: 'qǐng', en: 'Please', fa: 'لطفاً' },

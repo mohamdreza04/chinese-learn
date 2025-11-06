@@ -24,12 +24,12 @@ export default function Practice({ lang }) {
 
   return (
     <section className="py-8">
-      <h2 className="text-2xl font-bold mb-6">{lang === 'fa' ? 'تمرین' : 'Practice'}</h2>
+      <h2 className="text-2xl font-bold text-white mb-6">{lang === 'fa' ? 'تمرین' : 'Practice'}</h2>
       <div className="max-w-xl mx-auto">
         <Flashcard item={allItems[idx]} lang={lang} onPlay={play} />
         <div className="mt-4 flex gap-3 justify-center">
-          <button onClick={prev} className="px-4 py-2 rounded border">Prev</button>
-          <button onClick={next} className="px-4 py-2 rounded border">Next</button>
+          <button onClick={prev} className="px-4 py-2 rounded border text-white">قبلی</button>
+          <button onClick={next} className="px-4 py-2 rounded border text-white">بعدی</button>
         </div>
       </div>
     </section>

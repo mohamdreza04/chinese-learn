@@ -30,8 +30,8 @@ export default function Home({ lang }) {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-red-500/10 via-transparent to-blue-500/10"></div>
+      <section className="relative py-20 p-[40px]  overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-red-500/10 rounded-[30px] via-transparent to-blue-500/10"></div>
         <div className="relative max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -42,22 +42,22 @@ export default function Home({ lang }) {
             >
               <div className="inline-flex items-center gap-3 bg-white/80 dark:bg-gray-800/80 backdrop-blur rounded-full px-6 py-3 border border-gray-200 dark:border-gray-700 shadow-lg">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                <span className="font-bold text-gray-700 dark:text-gray-300">
+                <span className="font-bold text-gray-700  dark:text-gray-300">
                   {lang === 'fa' ? '🎉 ۱۰۰٪ رایگان - همیشه رایگان' : '🎉 100% Free - Forever Free'}
                 </span>
               </div>
               
-              <h1 className="text-6xl lg:text-7xl font-black leading-tight">
+              <h1 className="text-6xl lg:text-7xl font-black text-center leading-tight">
                 <span className="bg-gradient-to-r from-gray-900 via-red-600 to-pink-600 dark:from-white dark:via-red-400 dark:to-pink-400 bg-clip-text text-transparent">
                   {lang === 'fa' ? 'چینی را' : 'Learn Chinese'}
                 </span>
                 <br />
-                <span className="bg-gradient-to-r from-red-600 to-pink-600 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-red-600 text-center to-pink-600 bg-clip-text text-transparent">
                   {lang === 'fa' ? 'آسان بیاموزید' : 'the Easy Way'}
                 </span>
               </h1>
               
-              <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-lg">
+              <p className="text-xl text-gray-600 text-center dark:text-gray-300 leading-relaxed max-w-lg">
                 {lang === 'fa' 
                   ? 'با متدهای علمی و بازی‌گونه، زبان چینی را در کوتاه‌ترین زمان یاد بگیرید. سیستم هوشمند ما با شما رشد می‌کند.'
                   : 'Learn Chinese fast with scientific, gamified methods. Our AI adapts as you grow.'
